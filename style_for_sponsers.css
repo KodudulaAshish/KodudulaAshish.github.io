@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#intro_container {
+    background-image: url("./Images/Welcome_image.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0% 0%;
+    height: 70%;
+}
+
+#intro_content {
+    padding: 27vh 75vh 23vh 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro_content>p{
+    margin: 1.5vh auto;
+}
+
+.bold_heading {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    font-stretch: expanded;
+}
+
+.bold_info {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+#info_grid>p {
+    font-family: 'Rubik', sans-serif;
+}
+
+#partnering {
+    text-align: center;
+    margin: 6vh auto;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+#info_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#info_grid>img {
+    width: 100%;
+}
+
+#info_grid>section {
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 10vh;
+    background-color: rgb(238, 238, 238);
+}
+
+#info_grid span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0vh auto 5vh auto;
+    border-bottom: 6px solid orange;
+    letter-spacing: 0.05rem;
+}
+
+#info_grid p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#Sponsorship{
+    display: flex;
+    flex-direction: column;
+    background-color: #03072d;
+    color: white;
+    padding: auto 40%;
+}
+
+#Sponsorship p{
+    text-align: center;
+    display: inline-block;
+    margin: 4vh 30vh;
+    font-family: 'Rubik',sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+#custom_sponser{
+    display: flex;
+    margin: 2vh 23vw;
+    justify-content: space-between;
+}
+
+#custom_sponser>div{
+    border-top: 5px solid orangered;
+    display: flex;
+    flex-direction: column;
+    background-color: #02073c;
+    width: 25vw;
+    height: 50vh;
+}
+
+#custom_sponser p{
+    margin: 2vh auto;
+    font-size: 1.25rem;
+}
+
+#custom_sponser .bold_heading{
+    font-weight: 700;
+}
+
+#Sponsers{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Sponsers section{
+    display: flex;
+}
