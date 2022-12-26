@@ -232,6 +232,7 @@
     width: 70vw;
     overflow: hidden;
     scroll-behavior: smooth;
+    align-items: center;
 }
 
 @media only screen and (width<=800px) {
